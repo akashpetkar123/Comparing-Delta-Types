@@ -1,7 +1,7 @@
 # Comparing-Delta-Types
 Usecase was is to compare the delta types present in the environments
 
-When account goes from lower chart to directly higher chart version (ex:- 20.12 to 22.01) then there can be possibility of missing nodetypes, datatypes, interfacetypes etc which can lead to corrupt the data and enviroment
+When account goes from lower chart to directly higher chart version (ex:- 20.12 to 22.01) then there can be possibility of missing nodetypes, datatypes, interfacetypes etc which can lead to corrupt the data and enviroment.
 Note:- Here environment = K8S cluster, types such as nodetypes, datatypes, interfacetypes etc might be missing in the env due to which some functionality may not work, 
 20.12 to 22.01 it means every month new release version is released.
 
